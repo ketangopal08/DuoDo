@@ -1,6 +1,17 @@
 <template>
   <div>
-    <div class="shadow-md" style="height: 200px;width: 200px;"></div>
+    <div class="flex h-56 w-full flex-col items-center justify-center gap-2">
+    <UiLabel
+      for="inputDemo"
+      class="ml-4 w-full max-w-sm"
+      >Hover over below input</UiLabel
+    >
+    <IInput
+      id="inputDemo"
+      placeholder="Hover over me"
+      container-class="w-full max-w-sm"
+    ></IInput>
+  </div>
 
   </div>
 </template>
