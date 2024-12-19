@@ -4,7 +4,6 @@
       class="cursor-pointer flex-col items-center justify-center whitespace-nowrap text-4xl shadow-2xl"
       :gradient-color="isDark ? '#363636' : '#C9C9C9'"
     >
-      new spotloight
     </CardSpotlight>
   </div>
 </template>
