@@ -1,7 +1,14 @@
-<script setup lang="ts">
-import { Button } from '@/components/ui/button'
-</script>
-
 <template>
-  <Button variant="outline">Button</Button>
+  <div class="flex h-[500px] w-full flex-col gap-4 lg:h-[250px] lg:flex-row">
+    <CardSpotlight
+      class="cursor-pointer flex-col items-center justify-center whitespace-nowrap text-4xl shadow-2xl"
+      :gradient-color="isDark ? '#363636' : '#C9C9C9'"
+    >
+      new spotloight
+    </CardSpotlight>
+  </div>
 </template>
+
+<script setup lang="ts">
+const isDark = computed(() => useColorMode().value == "dark");
+</script>
