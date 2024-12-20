@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt','@vueuse/motion/nuxt'],
+  modules: ['@nuxtjs/tailwindcss', 'shadcn-nuxt','@vueuse/motion/nuxt','@nuxtjs/color-mode'],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: '~/tailwind.config.ts',
@@ -16,6 +16,9 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui'
+  },
+  colorMode: {
+    classSuffix: ''
   },
   runtimeConfig: {
     public: {
