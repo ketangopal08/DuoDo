@@ -1,5 +1,7 @@
 # DuoDo - Task Management App
 
+![Project Logo](assets/logo-sq.JPG)
+
 DuoDo is a simple and effective task management application designed specifically for two users to collaborate seamlessly. It allows users to create, assign, and track tasks effortlessly.
 
 ## Features
